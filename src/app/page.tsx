@@ -43,7 +43,7 @@ export default function Home() {
   return (
     <>
       <div>
-        <nav className="flex items-center justify-between flex-wrap bg-teal-500 p-6">
+        <nav className="flex items-center bg-[#00ADB5] justify-between flex-wrap  p-6">
           <div className="flex items-center flex-shrink-0 text-white mr-6">
             <svg
               className="fill-current h-8 w-8 mr-2"
@@ -76,33 +76,13 @@ export default function Home() {
                 href="#responsive-header"
                 className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
               >
-                Docs
-              </a>
-              <a
-                href="#responsive-header"
-                className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white mr-4"
-              >
-                Examples
-              </a>
-              <a
-                href="#responsive-header"
-                className="block mt-4 lg:inline-block lg:mt-0 text-teal-200 hover:text-white"
-              >
-                Blog
-              </a>
-            </div>
-            <div>
-              <a
-                href="#"
-                className="inline-block text-sm px-4 py-2 leading-none border rounded text-white border-white hover:border-transparent hover:text-teal-500 hover:bg-white mt-4 lg:mt-0"
-              >
-                Download
+                About
               </a>
             </div>
           </div>
         </nav>
       </div>
-      <div>
+      <div className="">
         {loading ? (
           <>Loading ...</>
         ) : (
@@ -132,10 +112,10 @@ export default function Home() {
                 >
                   <a
                     href="#"
-                    className="flex flex-col items-center bg-white border border-gray-200 rounded-lg shadow md:flex-row md:max-w-xl hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    className="flex flex-col items-center bg-white border bg-[#393E46] rounded-lg shadow md:flex-row md:max-w-xl hover:bg-[#525966] dark:border-[#393E46] dark:bg-[#393E46] dark:hover:[#525966]"
                   >
                     <img
-                      className="object-cover w-full rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
+                      className="object-cover w-full max-w-30	rounded-t-lg h-96 md:h-auto md:w-48 md:rounded-none md:rounded-s-lg"
                       src={competition.data.img}
                       alt=""
                     />
@@ -157,3 +137,4 @@ export default function Home() {
     </>
   );
 }
+35;
