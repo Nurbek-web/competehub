@@ -71,9 +71,10 @@ export default function Home() {
                   Access Resources
                 </div>
                 <p className="text-gray-700 text-base px-6 mb-5">
-                  Whether you're looking for study materials, practice tests, or
-                  guidance on how to excel in competitions, CompeteHub provides
-                  a wealth of resources to support your journey towards success.
+                  Whether you&apos;re looking for study materials, practice
+                  tests, or guidance on how to excel in competitions, CompeteHub
+                  provides a wealth of resources to support your journey towards
+                  success.
                 </p>
               </a>
             </div>

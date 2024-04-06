@@ -71,7 +71,7 @@ export default function Home() {
                   className="flex flex-col items-center space-x-4 m-4"
                 >
                   <a
-                    href="#"
+                    href=""
                     className="flex flex-col items-center bg-white border bg-[#393E46] rounded-lg shadow md:flex-row md:max-w-xl hover:bg-[#525966] dark:border-[#393E46] dark:bg-[#393E46] dark:hover:[#525966]"
                   >
                     <img
