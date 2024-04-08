@@ -11,6 +11,7 @@ import {
   useEffect,
   useState,
 } from "react";
+import Link from "next/link";
 
 import getData from "@/firebase/firestore/getData";
 
@@ -71,7 +72,7 @@ export default function Home() {
                   className="flex flex-col items-center space-x-4 m-4"
                 >
                   <a
-                    href=""
+                    href={`${competition.id}`}
                     className="flex flex-col items-center border bg-[#393E46] rounded-lg shadow md:flex-row md:max-w-xl  border-[#393E46] hover:[#525966]"
                   >
                     <img
